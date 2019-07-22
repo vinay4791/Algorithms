@@ -9,11 +9,8 @@ public class Main {
     System.out.println(Arrays.toString(fixArray(A))); 
 
 	}
-
 	private static int[] fixArray(int[] array) {
-for(int i = 0; i< array.length; i++) {
-			
-			
+		for(int i = 0; i< array.length; i++) {
 			if(array[i] != -1 && array[i]!=i) {
 				
 				int x = array[i];
@@ -31,5 +28,4 @@ for(int i = 0; i< array.length; i++) {
 		}
 		return array;
 	}
-
 }
